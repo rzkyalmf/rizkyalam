@@ -56,41 +56,6 @@ export const ExperienceSection = () => {
           <p className="text-gray-400">Sept 2023 - Feb 2024</p>
         </div>
 
-        {/* Al-Shofwa */}
-        <div className="flex justify-between items-start">
-          <div>
-            <Link className="hover:underline" href="https://alsofwa.com">
-              <h3 className="text-white text-xl font-bold">
-                Yayasan Al-Shofwa
-              </h3>
-            </Link>
-            <p className="text-gray-400">Designer & Setter</p>
-            <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
-              ONSITE
-            </span>
-          </div>
-          <p className="text-gray-400">May 2021 - Oct 2021</p>
-        </div>
-
-        {/* KBA */}
-        <div className="flex justify-between items-start">
-          <div>
-            <Link
-              className="hover:underline"
-              href="http://www.kampungbahasaarab.com"
-            >
-              <h3 className="text-white text-xl font-bold">
-                Yayasan Kampung Bahasa Arab
-              </h3>
-            </Link>
-            <p className="text-gray-400">Designer & Editor</p>
-            <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
-              ONSITE
-            </span>
-          </div>
-          <p className="text-gray-400">Feb 2019 - Jan 2020</p>
-        </div>
-
         {/* Nukilan Salaf */}
         <div className="flex justify-between items-start">
           <div>
