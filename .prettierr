@@ -1,0 +1,20 @@
+{
+  "printWidth": 135,
+  "semi": true,
+  "plugins": [
+    "prettier-plugin-tailwindcss"
+  ],
+  "tailwindFunctions": [
+    "tv"
+  ],
+  "overrides": [
+    {
+      "files": [
+        "*.tsx"
+      ],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}
