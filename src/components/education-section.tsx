@@ -9,44 +9,39 @@ export const EducationSection = () => {
         <h2 className="text-2xl font-bold  text-white">EDUCATION</h2>
       </div>
       <div className="space-y-8">
-        {/* NESABO */}
+        {/* Bootcamp */}
         <div className="flex justify-between items-start">
           <div>
-            <Link
-              href="https://nukilan-salaf.vercel.app"
-              className="hover:underline"
-            >
+            <Link href="https://www.devscale.id/" className="hover:underline">
               <h3 className="text-white text-xl font-bold">
-                SMKN 1 Bojonggede
+                RAG 101 Workshop - Devscale Indonesia
               </h3>
             </Link>
-            <p className="text-gray-400">
-              Multimedia (Web Development,Software,Hardware,Design,Editing,3D)
-            </p>
-            <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
-              OFFLINE
-            </span>
-          </div>
-          <p className="text-gray-400">Sept 2016 - Oct 2018</p>
-        </div>
-
-        {/* LSIA */}
-        <div className="flex justify-between items-start">
-          <div>
-            <Link
-              href="https://nukilan-salaf.vercel.app"
-              className="hover:underline"
-            >
-              <h3 className="text-white text-xl font-bold">
-                LSIA (Lembaga Studi Islam & Bahasa Arab)
-              </h3>
-            </Link>
-            <p className="text-gray-400">Idad Lughawy</p>
+            <p className="text-gray-400"> AI/LLMs Development</p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               ONLINE
             </span>
           </div>
-          <p className="text-gray-400">March 2020 - April 2021</p>
+          <p className="text-gray-400">28 - 29 Dec 2023</p>
+        </div>
+
+        {/* Bootcamp */}
+        <div className="flex justify-between items-start">
+          <div>
+            <Link
+              href="https://www.devscale.id/programs/fullstack-javascript-bootcamp"
+              className="hover:underline"
+            >
+              <h3 className="text-white text-xl font-bold">
+                Fullstack Javascript Advance Bootcamp
+              </h3>
+            </Link>
+            <p className="text-gray-400">Full-Stack Development</p>
+            <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
+              ONLINE
+            </span>
+          </div>
+          <p className="text-gray-400">Nov 2023 - Dec 2023</p>
         </div>
 
         {/* Bootcamp */}
@@ -68,23 +63,44 @@ export const EducationSection = () => {
           <p className="text-gray-400">June 2023 - July 2023</p>
         </div>
 
-        {/* Bootcamp */}
+        {/* LSIA */}
         <div className="flex justify-between items-start">
           <div>
             <Link
-              href="https://www.devscale.id/programs/fullstack-javascript-bootcamp"
+              href="https://nukilan-salaf.vercel.app"
               className="hover:underline"
             >
               <h3 className="text-white text-xl font-bold">
-                Fullstack Javascript Advance Bootcamp
+                LSIA (Lembaga Studi Islam & Bahasa Arab)
               </h3>
             </Link>
-            <p className="text-gray-400">Full-Stack Development</p>
+            <p className="text-gray-400">Idad Lughawy</p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               ONLINE
             </span>
           </div>
-          <p className="text-gray-400">Nov 2023 - Dec 2023</p>
+          <p className="text-gray-400">March 2020 - April 2021</p>
+        </div>
+
+        {/* NESABO */}
+        <div className="flex justify-between items-start">
+          <div>
+            <Link
+              href="https://nukilan-salaf.vercel.app"
+              className="hover:underline"
+            >
+              <h3 className="text-white text-xl font-bold">
+                SMKN 1 Bojonggede
+              </h3>
+            </Link>
+            <p className="text-gray-400">
+              Multimedia (Web Development,Software,Hardware,Design,Editing,3D)
+            </p>
+            <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
+              OFFLINE
+            </span>
+          </div>
+          <p className="text-gray-400">Sept 2016 - Oct 2018</p>
         </div>
       </div>
     </section>

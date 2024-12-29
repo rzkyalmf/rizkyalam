@@ -44,7 +44,7 @@ export const ProfileSection = () => {
           the latest trends. Beyond web development, I&apos;m also interested in
           AI Engineering. My goal is to combine these skills to create
           innovative solutions that can make a positive impact in both software
-          development and artificial intelligence.`&quot;`
+          development and artificial intelligence.&quot;
         </p>
       </div>
 
