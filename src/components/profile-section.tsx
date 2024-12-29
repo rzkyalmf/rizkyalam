@@ -7,7 +7,7 @@ import { TypedHeading } from "./typed-heading";
 
 export const ProfileSection = () => {
   return (
-    <div className="max-w-2xl mx-auto text-start p-10">
+    <div className="max-w-2xl mx-auto text-start px-10">
       {/* Profile */}
       <div className="mb-8 flex gap-4 sm:gap-6 flex-col sm:flex-row items-center sm:items-center text-center sm:text-left">
         <div className="relative w-24 h-24 flex-shrink-0">

@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-neutral-900 text-white px-4 sm:px-0">
+    <main className="min-h-screen bg-neutral-900 text-white border py-36 sm:py-0 px-4 sm:px-0">
       <Carousel className="w-full max-w-5xl mx-auto">
         <CarouselContent>
           <CarouselItem>
