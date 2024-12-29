@@ -29,14 +29,14 @@ export const TechStack = () => {
   return (
     <div className="mt-8">
       <div className="w-full max-w-2xl mx-auto">
-        <section className="grid grid-cols-6 lg:grid-cols-12 gap-6">
+        <section className="grid grid-cols-4 sm:grid-cols-6 lg:grid-cols-12 gap-4 sm:gap-6">
           {technologies.map((tech) => (
             <Image
               key={tech.name}
               alt={tech.name}
               src={tech.src}
-              width={32}
-              height={32}
+              width={28}
+              height={28}
               loading="lazy"
               className="hover:scale-125 transition-transform duration-200"
             />

@@ -3,22 +3,24 @@ import React from "react";
 
 export const ExperienceSection = () => {
   return (
-    <section className="max-w-2xl mx-auto w-full">
-      <div className="flex items-center text-gray-400 text-lg mb-8 gap-2">
+    <section className="max-w-2xl mx-auto w-full px-10 sm:px-0">
+      <div className="flex items-center text-gray-400 text-base sm:text-lg mb-6 sm:mb-8 gap-2">
         <span className="w-2 h-2 bg-blue-400 rounded-full mr-2 animate-pulse"></span>
         <h2 className="text-2xl font-bold  text-white">EXPERIENCES</h2>
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-6 sm:space-y-8">
         {/* Ithbi */}
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-0">
           <div>
             <Link href="https://ithbi.id/" className="hover:underline">
-              <h3 className="text-white text-xl font-bold">
+              <h3 className="text-lg sm:text-xl font-bold text-white">
                 PT. Ath-Thibbul Badil Indonesia
               </h3>
             </Link>
-            <p className="text-gray-400">UI/UX, Full Stack Development</p>
+            <p className="text-gray-400 text-sm sm:text-base">
+              UI/UX, Full Stack Development
+            </p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               REMOTE
             </span>
@@ -27,12 +29,16 @@ export const ExperienceSection = () => {
         </div>
 
         {/* Wiratman */}
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-0">
           <div>
             <Link href="https://wiratman.co.id/" className="hover:underline">
-              <h3 className="text-white text-xl font-bold">PT. Wiratman</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white">
+                PT. Wiratman
+              </h3>
             </Link>
-            <p className="text-gray-400">Backend Development</p>
+            <p className="text-gray-400 text-sm sm:text-base">
+              Backend Development
+            </p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               REMOTE
             </span>
@@ -41,14 +47,16 @@ export const ExperienceSection = () => {
         </div>
 
         {/* Almalia */}
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-0">
           <div>
             <Link className="hover:underline" href="https://almaliacredco.com">
-              <h3 className="text-white text-xl font-bold">
+              <h3 className="text-lg sm:text-xl font-bold text-white">
                 PT. Almalia Halal Finansia
               </h3>
             </Link>
-            <p className="text-gray-400">Designer, Editor & Setter</p>
+            <p className="text-gray-400 text-sm sm:text-base">
+              Designer, Editor & Setter
+            </p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               ONSITE
             </span>
@@ -57,15 +65,17 @@ export const ExperienceSection = () => {
         </div>
 
         {/* Nukilan Salaf */}
-        <div className="flex justify-between items-start">
+        <div className="flex flex-col sm:flex-row justify-between items-start gap-2 sm:gap-0">
           <div>
             <Link
               href="https://nukilan-salaf.vercel.app"
               className="hover:underline"
             >
-              <h3 className="text-white text-xl font-bold">Nukilan Salaf</h3>
+              <h3 className="text-lg sm:text-xl font-bold text-white">
+                Nukilan Salaf
+              </h3>
             </Link>
-            <p className="text-gray-400">Founder</p>
+            <p className="text-gray-400 text-sm sm:text-base">Founder</p>
             <span className="inline-block px-3 py-1 text-sm bg-neutral-800 rounded-md mt-2">
               ONSITE
             </span>

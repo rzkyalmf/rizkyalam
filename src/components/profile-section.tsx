@@ -7,22 +7,24 @@ import { TypedHeading } from "./typed-heading";
 
 export const ProfileSection = () => {
   return (
-    <div className="max-w-2xl mx-auto text-start">
+    <div className="max-w-2xl mx-auto text-start p-10">
       {/* Profile */}
-      <div className="mb-8 flex gap-6 flex-row items-center">
-        <div className="relative w-24 h-24">
+      <div className="mb-8 flex gap-4 sm:gap-6 flex-col sm:flex-row items-center sm:items-center text-center sm:text-left">
+        <div className="relative w-24 h-24 flex-shrink-0">
           <Image
             src="/fotoprofil.jpg"
             alt="Profile Picture"
-            className="rounded-full object-cover" // Tambahkan object-cover
+            className="rounded-full object-cover"
             fill
             priority
             sizes="(max-width: 96px) 100vw, 96px"
           />
         </div>
-        <div className="">
-          <h1 className="text-2xl font-bold">Rizky Alam Firmansyah</h1>
-          <div className="flex items-center text-gray-400 text-lg">
+        <div>
+          <h1 className="text-xl sm:text-2xl font-bold">
+            Rizky Alam Firmansyah
+          </h1>
+          <div className="flex items-center justify-center sm:justify-start text-gray-400 text-base sm:text-lg">
             <span className="w-2 h-2 bg-emerald-400 rounded-full mr-2 animate-pulse"></span>
             Open to Opportunities
           </div>
@@ -49,31 +51,30 @@ export const ProfileSection = () => {
       </div>
 
       {/* Social Links */}
-
-      <div className="space-x-3 mb-12">
+      <div className="flex flex-wrap gap-3 mb-12 justify-start">
         <Link
           href="mailto:sketsacartoon@gmail.com"
-          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors"
+          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors text-sm sm:text-base"
         >
-          <Mail size={20} />
+          <Mail size={18} />
           Email
         </Link>
         <Link
           href="https://github.com/rzkyalmf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors"
+          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors text-sm sm:text-base"
         >
-          <Github size={20} />
+          <Github size={18} />
           Github
         </Link>
         <Link
           href="https://instagram.com/rzkyalmf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors"
+          className="inline-flex items-center gap-2 bg-neutral-800 text-white px-4 sm:px-6 py-3 rounded-md hover:bg-neutral-700 transition-colors text-sm sm:text-base"
         >
-          <Instagram size={20} />
+          <Instagram size={18} />
           Instagram
         </Link>
       </div>
